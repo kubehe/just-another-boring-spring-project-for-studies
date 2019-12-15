@@ -1,7 +1,7 @@
 # Metody tworzenia aplikacji bazodanowych - projekt
 
 1. Wstęp i cel
-2. Analiza (mile widziane diagramy UMLlub słowny opis zakresu)
+2. Analiza 
 3. Architektura techniczna
 4. Opis zrealizowanej apliacji ze screenshotami i odnosnikami do rozdziału 2 uzasadniajacymi zrealizowany zakres
 5. Zakonczenie z omówieniem dalszych możliwości rozwoju
@@ -46,7 +46,7 @@ Diagram uml klas warstwy aplikacyjnej:
 - Docker - odpalenie całej aplicakcji - w kodzie znajduje się plik docker-compose.yml, aby uruchomić aplikacje należy zaintalować Docker oraz docker-compose, a następnie w terminalu odpalić komendę `docker-compose up -d`, alternatywą jest postawienie bazy lokalnie i zbudowanie za pomocą gradle aplikacji.
 - Migracja danych jest wykonana za pomocą flywaya przy pierwszym starcie aplikacji, skrypty sql znajdują sie w folderze: `./src/main/resources/migration`, folder ddl zawiera skrypt sql do migracji schematu bazy, natomiast test-dml przykładowe dane z 3 typami biletów, oraz filmami i ich ekranizacjami.
 
-## 4. Opis zrealizowanej apliacji ze screenshotami i odnosnikami do rozdziału 2 uzasadniajacymi zrealizowany zakres
+## 4. Opis zrealizowanej apliacji ze screenshotami i odnośnikami do rozdziału 2 uzasadniajacymi zrealizowany zakres
 
 Punkty z przypadków użycia przedstawione w swaggerze:
 
@@ -70,7 +70,7 @@ Punkty z przypadków użycia przedstawione w swaggerze:
 
 ![](docs/reservation-details.png)
 
-## 5. Zakonczenie z omówieniem dalszych możliwości rozwoju
+## 5. Zakończenie z omówieniem dalszych możliwości rozwoju
 
 System udostępnia podstawowe możliwości rejestracji na ekranizację w kinie. 
 Możliwe jest rozwinięcie o dodanie interfejsu graficznego.
